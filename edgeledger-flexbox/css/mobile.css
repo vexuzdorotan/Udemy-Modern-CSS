@@ -1,0 +1,80 @@
+/* Navbar */
+#navbar {
+  flex-direction: column;
+  height: 100%;
+}
+
+#navbar .logo {
+  margin-bottom: 2rem;
+}
+
+#navbar ul {
+  margin-bottom: 0.5rem;
+}
+
+/* Section: Showcase */
+#showcase .showcase-content {
+  margin-top: 120px;
+}
+
+#showcase .showcase-content .l-heading {
+  font-size: 2rem;
+}
+
+#showcase .showcase-content .lead {
+  font-size: 1rem;
+}
+
+/* Section: What */
+#what .items {
+  display: block;
+}
+
+#what .items .item {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+#what .items .item div:first-child {
+  margin-right: 1rem;
+  align-self: center;
+}
+
+#what .items .item i {
+  margin-bottom: 0;
+}
+
+#what .items .item div:nth-child(2),
+#what .items .item div:nth-child(2) h3 {
+  text-align: left;
+}
+
+/* Section: Who */
+#who .who-image {
+  display: none;
+}
+
+/* Section: Client */
+#client .m-heading,
+#client .items {
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+}
+
+#client .items div:last-child {
+  display: none;
+}
+
+/* Section: Contact */
+#contact {
+  flex-direction: column;
+}
+
+#contact .map {
+  border-top: 5px solid #333;
+  min-height: 200px;
+}
+
+#footer p {
+  text-align: center;
+}

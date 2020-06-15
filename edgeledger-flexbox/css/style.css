@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Utility */
+.container {
+  padding: 0.5rem 2rem;
+}
+
+.bg-primary {
+  background: #93cb52;
+  color: #f4f4f4;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #f4f4f4;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.text-primary {
+  color: #93cb52;
+}
+
+.l-heading {
+  font-size: 4rem;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.3rem;
+}
+
+.items {
+  list-style: none;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.btn-primary {
+  background: #93cb52;
+  color: #f4f4f4;
+}
+
+.btn-dark {
+  background: #333;
+  color: #f4f4f4;
+}
+
+.btn-primary:hover {
+  background: #7ab436;
+}
+
+.btn-dark:hover {
+  background: #2f2f2f;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #333;
+  color: #f4f4f4;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 4rem;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 0.75rem;
+  margin: 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background: #93cb52;
+  border-radius: 5px;
+}
+
+/* Header Showcase */
+#showcase {
+  background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+  color: #f4f4f4;
+  height: 100vh;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+
+/* Section: What */
+#what h1 {
+  text-align: center;
+}
+
+#what h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#what .items {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+#what .items .item {
+  flex: 1;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+#what .items .item i {
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Section: Who */
+#who {
+  display: flex;
+}
+
+#who .who-image {
+  flex: 1;
+  background: url('../img/people.jpg') no-repeat center center/cover;
+}
+
+#who .who-text {
+  flex: 1;
+}
+
+#who .items li {
+  padding: 0.5rem 0;
+}
+
+/* Section: Client */
+#client h2 {
+  text-align: center;
+}
+
+#client .items {
+  display: flex;
+}
+
+#client .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/* Section: Contact */
+#contact {
+  display: flex;
+}
+
+#contact .contact-form,
+#contact .map {
+  flex: 1;
+}
+
+#contact .map {
+  height: 100%;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.5rem 0;
+}
+
+#contact .contact-form .form-group label {
+  display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#contact .contact-form button {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+/* Footer */
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}
